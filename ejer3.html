@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores con Bordes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-pink-light { background-color: #FFC0CB !important; } /* Rosa claro */
+        .bg-violet { background-color: #D8BFD8 !important; } /* Violeta */
+        .bg-light-blue { background-color: #ADD8E6 !important; } /* Azul claro */
+        .bg-light-yellow { background-color: #FFFACD !important; } /* Amarillo suave */
+        .bg-mint-green { background-color: #98FB98 !important; } /* Verde menta */
+        .bg-orange-pastel { background-color: #FFDAB9 !important; } /* Naranja pastel */
+    </style>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Menú</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="acti1.html">Actividad 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="acti2.html">Actividad 2</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ejercicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="ejer1.html">Práctica 1</a></li>
+                      <li><a class="dropdown-item" href="ejer2.html">Práctica 2</a></li>
+                      <li><a class="dropdown-item" href="ejer3.html">Práctica 3</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Otros</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+</head>
+<body>
+   <div class="container">
+      <div class="row row-cols-2 row-cols-lg-3 g-0">
+          <div class="col bg-pink-light border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col bg-violet border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col bg-light-blue border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col bg-light-yellow border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col bg-mint-green border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col bg-orange-pastel border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-pink-light border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-violet border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-light-blue border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-light-yellow border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-mint-green border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+          <div class="col-4 col-lg-2 bg-orange-pastel border border-dark rounded-3 p-3 d-flex flex-column align-items-center">Columna
+              <img src="img.jpg" alt="Imagen" width="50" height="50" class="mx-auto d-block">
+          </div>
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
