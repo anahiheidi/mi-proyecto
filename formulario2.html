@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Formulario 3</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="acti1.html">Actividad 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="acti2.html">Actividad 2</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ejercicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="ejer1.html">Práctica 1</a></li>
+                    <li><a class="dropdown-item" href="ejer2.html">Práctica 2</a></li>
+                    <li><a class="dropdown-item" href="ejer3.html">Práctica 3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Formularios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="formulario.html">Formulario 1</a></li>
+                    <li><a class="dropdown-item" href="formulario1.html">Formulario 2</a></li>
+                    <li><a class="dropdown-item" href="formulario2.html">Formulario 3</a></li>
+                    <li><a class="dropdown-item" href="formulario3.html">Formulario 3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </head>
+
+    <body class="bg-light">
+        <main class="container">
+            <p class="text-center display-4 fw-bold text-success fst-italic">Formulario 3</p>
+
+            <form class="row g-3 border border-success rounded-4 shadow-lg bg-success bg-opacity-25 p-4" style="width: 50%; margin:0 auto;">
+                
+                <!-- Email -->
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control border border-success rounded-3" id="inputEmail3">
+                  </div>
+                </div>
+
+                <!-- Password -->
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control border border-success rounded-3" id="inputPassword3">
+                  </div>
+                </div>
+
+                <!-- Radio Buttons -->
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Género</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="genero" id="radioMasculino" value="Masculino">
+                      <label class="form-check-label" for="radioMasculino">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="genero" id="radioFemenino" value="Femenino">
+                      <label class="form-check-label" for="radioFemenino">Femenino</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="genero" id="radioOtro" value="Otro">
+                      <label class="form-check-label" for="radioOtro">Otro</label>
+                    </div>
+                  </div>
+                </fieldset>
+
+                <!-- Checkbox -->
+                <div class="row mb-3">
+                  <div class="col-sm-10 offset-sm-2">
+                    <label class="form-label">Intereses</label>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="checkDeportes" value="Deportes">
+                      <label class="form-check-label" for="checkDeportes">Deportes</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="checkMusica" value="Música">
+                      <label class="form-check-label" for="checkMusica">Música</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="checkLectura" value="Lectura">
+                      <label class="form-check-label" for="checkLectura">Lectura</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Botón de Enviar -->
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success text-light rounded-3">Enviar</button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="bg-light text-center py-3 mt-5"></footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+

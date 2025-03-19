@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Formulario 4</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Menú</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="acti1.html">Actividad 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="acti2.html">Actividad 2</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ejercicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="ejer1.html">Práctica 1</a></li>
+                    <li><a class="dropdown-item" href="ejer2.html">Práctica 2</a></li>
+                    <li><a class="dropdown-item" href="ejer3.html">Práctica 3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Formularios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="formulario.html">Formulario 1</a></li>
+                    <li><a class="dropdown-item" href="formulario1.html">Formulario 2</a></li>
+                    <li><a class="dropdown-item" href="formulario2.html">Formulario 3</a></li>
+                    <li><a class="dropdown-item" href="formulario3.html">Formulario 3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </head>
+
+    <body class="bg-light">
+        <main class="container">
+            <p class="text-center display-5 fw-bold text-primary">Formulario 4</p>
+
+            <form class="row g-3 needs-validation border border-primary rounded-4 p-4 bg-primary bg-opacity-25 shadow-lg" 
+                style="width: 70%; margin:0 auto;" novalidate>
+                
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre(s)</label>
+                    <input type="text" class="form-control border border-primary rounded-3" id="validationCustom01" required>
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control border border-primary rounded-3" id="validationCustom02" required>
+                    <div class="valid-feedback">Looks good!</div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="inputPassword4" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control border border-primary rounded-3" id="inputPassword4" required>
+                  <div class="invalid-feedback">Por favor ingrese una contraseña.</div>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="validationCustom03" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control border border-primary rounded-3" id="validationCustom03" required>
+                    <div class="invalid-feedback">Proporcione una ciudad válida.</div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationCustom04" class="form-label">Ciudad</label>
+                    <select class="form-select border border-primary rounded-3" id="validationCustom04" required>
+                        <option selected disabled value="">Elegir...</option>
+                        <option>Oruro</option>
+                        <option>La Paz</option>
+                        <option>Santa Cruz</option>
+                        <option>Chuquisaca</option>
+                        <option>Pando</option>
+                        <option>Tarija</option>
+                        <option>Sucre</option>
+                        <option>Potosi</option>
+                        <option>Cochabamba</option>
+                    </select>
+                    <div class="invalid-feedback">Selecciona una ciudad válido.</div>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input type="text" class="form-control border border-primary rounded-3" id="validationCustomUsername" required>
+                      <div class="invalid-feedback">Por favor elija un nombre de usuario.</div>
+                  </div>
+              </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input border border-primary" type="checkbox" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Aceptar términos y condiciones
+                        </label>
+                        <div class="invalid-feedback">Debes aceptar antes de enviar.</div>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button class="btn btn-primary rounded-3 px-4 py-2" type="submit">Iniciar sesión</button>
+                </div>
+            </form>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            (function () {
+                'use strict'
+                var forms = document.querySelectorAll('.needs-validation')
+                Array.prototype.slice.call(forms).forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+            })()
+        </script>
+    </body>
+</html>
